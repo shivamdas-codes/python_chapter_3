@@ -4,3 +4,16 @@ print(len(num))
 print(num[0])   # prints the first element of the list
 print(num[4])   # prints the fifth element of the list
 print(num)
+
+
+student_info = ["shivam", 99.0, 10, "hyderabad" ]
+print(student_info)
+# we can access many values in a single list for example: str(), int() etc....
+
+
+student = ["shivam", 99.5, 18, "hyderabad"]
+print(student[0])
+student[3] = "USA"
+print(student)
+# we can able to print any index that are present in the list and we can able to change the index according to the sitution 
+# if we try to print index which is not there in the list then it will show as error
