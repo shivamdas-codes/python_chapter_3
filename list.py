@@ -19,7 +19,9 @@ print(student[3])
 print(student[0],student[1])
 student[3] = "USA"
 print(student)
-# we can able to print any index that are present in the list and we can able to change the index according to the sitution 
-# if we try to print index which is not there in the list then it will show as error
+# student1 = ["shivam", 77.6, 10, "hyderabad"]
+# print(student[5])
+"""we can able to print any index that are present in the list and we can able to change the index according to the sitution 
+if we try to print index which is not there in the list then it will show as error"""
 
 
