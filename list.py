@@ -25,9 +25,16 @@
 # if we try to print index which is not there in the list then it will show as error"""
 
 
-# example: 4
-marks = [56, 78, 46, 87, 86, 45]
-print(marks[1:4])
-print(marks[:5])
-print(marks[1:])
-# same as string slicing 
+# # example: 4
+# marks = [56, 78, 46, 87, 86, 45]
+# print(marks[1:4]) 
+# print(marks[:5])
+# print(marks[1:])
+# # same as string slicing (positive slicing)
+
+# example: 5
+marks1 = [65, 74, 83, 67, 66, 89]
+print(marks1[-3:-1])
+print(marks1[:-1])
+print(marks1[-4:])
+# same as string slicing (negative slicing)
