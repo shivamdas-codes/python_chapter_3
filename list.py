@@ -66,7 +66,7 @@ print(list2)
 # this not only applicable for the integer but also applicable to the strings as well, this mainly takes in albhabetical order
 
 
-# (3). reverse()
+# (3). sort(reverse = True)
 list = [6,4,7,8,3,2]
 print(list.sort(reverse = True))
 # the above line prints the NONE value
