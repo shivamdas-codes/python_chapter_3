@@ -52,8 +52,11 @@ print(list1)
 # (2). sort()
 marks2 = [6, 7, 3, 5, 9]
 marks2.sort()
+print(marks2.append(10))
+# if we give this method inside the print value it prints the number but it always shows the "none value"
 # print(marks2.sort()) it will print the "none value"
 print(marks2)
 # this function/method in list is used to arrange the elements in the right order or we can say that it arrange in the ascending order
 
 
+# (3). 
