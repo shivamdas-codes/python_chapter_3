@@ -89,3 +89,17 @@ list2 = ["apple", "mango", "grapes"]
 list2.reverse()
 print(list2)
 # this method is used to reverse the list compltely 
+
+
+# (5). insert()
+list = [66, 77, 88, 44, 11]
+list.insert(77, 99)
+print(list)
+# this method basically used to insert any kind of element in the particular index.
+fruits = ["apple", "mango", "grapes"]
+fruits.insert(0,"banana")
+print(fruits)
+# if the value is in the form of the strings then it will print error if you try to replace it with another string 
+# NOTE: this method doesn't replace or delete any value to insert the new element 
+
+
