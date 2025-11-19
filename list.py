@@ -103,3 +103,21 @@ print(fruits)
 # NOTE: this method doesn't replace or delete any value to insert the new element 
 
 
+# (6). remove()
+numbers = [44, 77, 44, 88, 99, 22, 44]
+numbers.remove(44)
+print(numbers)
+objects = ["car", "bottle", "books", "pen"]
+objects.remove("car")
+print(objects)
+# this method is mainly used to remove the first occurance of the given list
+
+
+# (7). pop()
+num = [3, 5, 2, 6, 7, 1]
+num.pop(3)  #the element which is given is an index
+print(num)
+# the pop() method is used to completely delete the index
+var = ["apple", "mango", "grapes"]
+var.pop(2)
+print(var)
