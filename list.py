@@ -81,3 +81,11 @@ print(list2)
 # the reverse() sorting prints the value in descending order
 
 
+# (4). reverse()
+list = [4,6,7,3,4,8]
+list.reverse()
+print(list)
+list2 = ["apple", "mango", "grapes"]
+list2.reverse()
+print(list2)
+# this method is used to reverse the list compltely 
