@@ -57,6 +57,21 @@ print(marks2.append(10))
 # print(marks2.sort()) it will print the "none value"
 print(marks2)
 # this function/method in list is used to arrange the elements in the right order or we can say that it arrange in the ascending order
+list2 = ["mango", "banana", "apple", "grapes"]
+list2.sort()
+print(list2)
+# this not only applicable for the integer but also applicable to the strings as well, this mainly takes in albhabetical order
 
 
-# (3). 
+# (3). reverse()
+list = [6,4,7,8,3,2]
+print(list.sort(reverse = True))
+# the above line prints the NONE value
+list.sort(reverse = True)
+print(list) 
+list2 = ["apple", "grapes", "banana", "mango"]
+list2.sort(reverse = True)
+print(list2)
+# the reverse() sorting prints the value in descending order
+
+
