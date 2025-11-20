@@ -15,3 +15,8 @@ print(tup1)
 
 
 # eg: 3
+tup2 = (1,)  # single valuie in tuple
+tup3 = ("hello",) # single value in tuple should be represented in (,)
+print(type(tup2), type(tup3))
+print(tup2,tup3)
+# we should write single element by using the(,) after the element, otherwise it does not take that value as the tuple.
