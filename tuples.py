@@ -42,3 +42,15 @@ tupple1 = (76,84,63,33,98,90)
 print(tupple1[-4:-1])
 print(tupple1[-5:])
 print(tupple1[:-3])
+
+
+# METHODS IN TUPLES
+# (1). index()
+num_list = (2, 7, 8, 4, 3, 8)
+print(num_list.index(8))
+# print(num_list.index(1))   in the index() method the elements which are present inside the tuple only prints as output if we try to give the element which is not in the list it will return as error.
+
+# (2). count()
+num_list2 = (4,6,3,5,3,5,6,3,3,3,7,3)
+print(num_list2.count(3))
+# this method is use to count that how many time an element is repeated
