@@ -30,3 +30,15 @@ print(for_eg,for_eg1,for_eg2)
 # in this given example it does not take as tuple instead of this will take as the int(),str(),float() because the singlr element doesn't ends with the (,)
 
 
+# SLICING IN TUPLES
+# eg: 1 ( positive slicing )
+tupple = (4,5,6,3,7)
+print(tupple[1:4])
+print(tupple[1:]) # takes empty as "lenght of the index till end"
+print(tupple[:3]) # takes empty space as 0
+
+# eg: 2 ( negative slicing )
+tupple1 = (76,84,63,33,98,90)
+print(tupple1[-4:-1])
+print(tupple1[-5:])
+print(tupple1[:-3])
