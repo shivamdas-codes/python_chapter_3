@@ -16,7 +16,17 @@ print(tup1)
 
 # eg: 3
 tup2 = (1,)  # single valuie in tuple
-tup3 = ("hello",) # single value in tuple should be represented in (,)
-print(type(tup2), type(tup3))
-print(tup2,tup3)
+tup3 = ("hello",) # single value in tuple 
+tup4 = (55.0,)
+print(type(tup2), type(tup3), type(tup4))
+print(tup2,tup3,tup4)
 # we should write single element by using the(,) after the element, otherwise it does not take that value as the tuple.
+# for example:
+for_eg = (1)
+for_eg1 = ("hello")
+for_eg2 = (66.0)
+print(type(for_eg),type(for_eg1),type(for_eg2))
+print(for_eg,for_eg1,for_eg2)
+# in this given example it does not take as tuple instead of this will take as the int(),str(),float() because the singlr element doesn't ends with the (,)
+
+
