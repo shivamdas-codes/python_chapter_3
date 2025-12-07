@@ -19,3 +19,11 @@ x = [True,True,(True+1)*4]  #true =1
 y = False*3 + 1 #false=0
 for i in range(y+sum(x)-9):
     print(sum(x)+i)
+
+
+s = "butterfly" # index started from 0 to 8
+s = s[2:]   # index sliced from 2 to end
+# now this become "tterfly"
+s = s[:5] + s[-2]
+# now take the first 5 char and last 2 char (this become "tterf" + "l" = "tterfl")
+print(s)
