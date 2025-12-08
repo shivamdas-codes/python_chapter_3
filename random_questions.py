@@ -36,4 +36,12 @@
 # print(string[string.find('t') + 3:])  # find the index of 't' and slice from that index +3 to end
 
 
-# (6).
+# (6).BOOLEAN EVALUATION:
+a = "1" # non empty string
+b = "0" # non empty string
+# the above assign values are string type that means both a and b are "True" because non-empty strings are considered True and empty strings are considered False in boolean context.
+# if any interger is assign then assume "true = 1 , false = 0"
+if a and b == True:
+    print("its a true statement")
+else:
+    print("its a false statement")
