@@ -52,4 +52,10 @@
 # print(a)
 
 
-# (8).
+# (8).LIST REMOVAL DURING ITERATION:
+my_list = [3,4,5,6,7] #THE ELEMENTS ARE ASSIGNED FROM INDEX 0 TO 4
+for i in my_list:
+# THIS LOOP FOLLOWS THE ELEMENTS ONE BY ONE FROM THE LIST AND REMOVES THEM
+# EXAMPLE: my_list[0], my_list[1], my_list[2]....
+    my_list.remove(i)
+print(my_list)
