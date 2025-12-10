@@ -78,10 +78,19 @@
 # print(x,y)
 
 
-# (11).LIST SLICING WITH NEGATIVE STEP:
-"""doubt"""
-var = [1,2,3,4] #original list
-new_var = var[::-2] #[start:end:step] follow this pattern if there is three slicing and the step is negative in this case which is -2.
-new_var.append(9)
-print(var)
-print(new_var)
+# # (11).LIST SLICING WITH NEGATIVE STEP:
+# """doubt"""
+# var = [1,2,3,4] #original list
+# new_var = var[::-2] #[start:end:step] follow this pattern if there is three slicing and the step is negative in this case which is -2.
+# new_var.append(9)
+# print(var)
+# print(new_var)
+
+
+# # (12).STRING METHOD isalpha():
+a = "12"    #its a string not a number
+if a.isalpha(): # checks if all characters in the string are alphabetic eg: 'abc' = true , '123' = false , 'abc123' = false
+    print("true")
+else:
+    print("false")
+
