@@ -114,3 +114,7 @@
 # (15).DIVISION OPERATORS AND TYPE COMPARISON:
 print(type(10/5) == type(10//5))    #first type is normal division and second type is floor division.float != int so the output is False
 
+
+# (16).STRING SLICING WITH STEP:
+str = "python"
+print(str[1:4:2])  #string slicing with step remove 2(from index 1 to 4)
