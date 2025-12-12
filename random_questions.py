@@ -118,3 +118,8 @@ print(type(10/5) == type(10//5))    #first type is normal division and second ty
 # (16).STRING SLICING WITH STEP:
 str = "python"
 print(str[1:4:2])  #string slicing with step remove 2(from index 1 to 4)
+
+
+# (17).BOOLEAN ARITHMETIC WITH STRINGS:
+a = True + True + False # True=1 , False=0
+print(a * "Hello")  # 2 * "Hello" = "HelloHello"
