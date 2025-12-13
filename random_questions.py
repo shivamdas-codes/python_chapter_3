@@ -136,3 +136,4 @@ for i in range(5):  # loop from 0 to 4
     if i == 2:  # when i equals 2 it consider as true then the loop stopes here.
         break
     print(i,end ="")
+
