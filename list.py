@@ -121,3 +121,21 @@ print(num)
 var = ["apple", "mango", "grapes"]
 var.pop(2)
 print(var)
+
+
+
+# this example contains all the methods that are present in the list
+# insert(), remove(), append(), sort(), pop(), reverse()
+n = [12]
+n.insert(0,5)
+n.insert(1,10)
+n.insert(0,6)
+print(n) 
+n.remove(6)
+n.append(9)
+n.append(1)
+n.sort()
+print(n) 
+n.pop()
+n.reverse()
+print(n) 
