@@ -167,3 +167,12 @@ for n in nums:
     if n % 2 == 0:
         nums.remove(n)
 print(nums)
+
+
+# (24).IDENTITY OPERATOR WITH LISTS:
+a = [1,2,3,4,5]
+b = [1,2,3,4,5]
+if a is b:
+    print("same")
+else:
+    print("different")
