@@ -122,3 +122,9 @@ var = ["apple", "mango", "grapes"]
 var.pop(2)
 print(var)
 
+# --------------------------------------------------------------------------------------------------------------------------
+
+# (14).store the above value in a list and sort them from "A" to "D"
+list = ["A", "C", "B", "D", "C", "A", "B", "D"]
+list.sort()
+print(list)

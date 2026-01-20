@@ -54,3 +54,13 @@ print(num_list.index(8))
 num_list2 = (4,6,3,5,3,5,6,3,3,3,7,3)
 print(num_list2.count(3))
 # this method is use to count that how many time an element is repeated
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------
+
+# (13).write a program to count the number of students with the "A" grade in the following tuple
+students_grades = ("A", "B", "C", "A", "A")
+print(type(students_grades))   # type of the variable
+print(len(students_grades))   #lenght of the variable
+print(students_grades.count("A"))
