@@ -128,3 +128,29 @@ print(var)
 list = ["A", "C", "B", "D", "C", "A", "B", "D"]
 list.sort()
 print(list)
+
+
+# (11).write a program to ask the user to enter the names of their 3 fav movies and store them in a list
+movies_list = []
+num1 = input("enter the first movie: ")
+num2 = input("enter the second movie: ")
+num3 = input("enter the third movie: ")
+movies_list.append(num1)
+movies_list.append(num2)
+movies_list.append(num3)
+print(movies_list)
+# or
+movies_list1 = []
+num = input("enter 1st movie: ")
+movies_list1.append(num)
+num = input("enter 2nd movie: ")
+movies_list1.append(num)
+num = input("enter 3rd movie: ")
+movies_list1.append(num)
+print(movies_list1)
+# or
+movies_list2 = []
+movies_list2.append(input("enter 1st movie: "))
+movies_list2.append(input("enter 2nd movie: "))
+movies_list2.append(input("enter 3rd movie: "))
+print(movies_list2)
